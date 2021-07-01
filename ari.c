@@ -2,6 +2,7 @@
 #include <assert.h>
 #include <string.h>
 #include <cs50.h>
+#include<ctype.h>
 
 string ari(string s)
 {
@@ -10,7 +11,7 @@ string ari(string s)
  
  while(s[i]!='\0')
  {
-  if(isalnum(s[i]) )
+  if(isalnum(s[i]))
    {chcnt++;}
    
    if(s[i]==' ')
