@@ -7,7 +7,7 @@
 string ari(string s)
 {
  int i=0;
-  float chcnt=0, wrdcnt=0, sentcnt=0;
+ float chcnt=0, wrdcnt=0, sentcnt=0;
  
  while(s[i]!='\0')
  {
@@ -24,10 +24,10 @@ string ari(string s)
   }
   
   
-  int ar= ( 4.71 * (chcnt/wrdcnt)) + ( 0.5*(wrdcnt/sentcnt)) - 21.43 ;
+  float ar= ( 4.71 * (chcnt/wrdcnt)) + ( 0.5*(wrdcnt/sentcnt)) - 21.43 ;
   string sret;
   
-  switch(ar)
+  switch(int(ar))
    {
     case 1: sret= "Kindergarten";
     break;
