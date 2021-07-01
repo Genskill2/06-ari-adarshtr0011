@@ -24,10 +24,10 @@ string ari(string s)
   }
   
   
-  float ar= ( 4.71 * (chcnt/wrdcnt)) + ( 0.5*(wrdcnt/sentcnt)) - 21.43 ;
+  int ar= ( 4.71 * double(chcnt/wrdcnt)) + ( 0.5* double(wrdcnt/sentcnt)) - 21.43 ;
   string sret;
   
-  switch(int(ar))
+  switch(ar)
    {
     case 1: sret= "Kindergarten";
     break;
