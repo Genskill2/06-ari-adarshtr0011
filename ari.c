@@ -1,4 +1,10 @@
-const char* ari(string s);
+  
+#include <stdio.h>
+#include <assert.h>
+#include <string.h>
+#include <cs50.h>
+
+string ari(string s);
 {
  int i=0,chcnt=0, wrdcnt=0, sentcnt=0;
  
