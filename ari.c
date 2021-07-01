@@ -1,4 +1,4 @@
-string ari(string s)
+const char* ari(string s);
 {
  int i=0,chcnt=0, wrdcnt=0, sentcnt=0;
  
@@ -21,7 +21,7 @@ string ari(string s)
   string sret;
   
   switch(ar)
-  {
+   {
     case 1: sret= "Kindergarten";
     break;
     case 2: sret = "First/Second Grade";
@@ -50,8 +50,10 @@ string ari(string s)
     break;
     case 14: sret = "Professor";
     break;
+    
     default:break;
     }
     
     return sret;
-   }
+
+ }
