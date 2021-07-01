@@ -1,12 +1,9 @@
-  
-#include <stdio.h>
-#include <assert.h>
-#include <string.h>
-#include <cs50.h>
+#include<string.h>
 
 string ari(string s)
 {
- int i=0,chcnt=0, wrdcnt=0, sentcnt=0;
+ int i=0;
+  float chcnt=0, wrdcnt=0, sentcnt=0;
  
  while(s[i]!='\0')
  {
