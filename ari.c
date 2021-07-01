@@ -24,7 +24,7 @@ string ari(string s)
   }
   
   
-  int ar= ( 4.71 * double(chcnt/wrdcnt)) + ( 0.5* double(wrdcnt/sentcnt)) - 21.43 ;
+  int ar= ceil( ( 4.71 * (chcnt/wrdcnt)) + ( 0.5* (wrdcnt/sentcnt)) - 21.43 ) ;
   string sret;
   
   switch(ar)
