@@ -1,4 +1,7 @@
-#include<string.h>
+#include <stdio.h>
+#include <assert.h>
+#include <string.h>
+#include <cs50.h>
 
 string ari(string s)
 {
